@@ -1,0 +1,15 @@
+if TARGET_IMX280A
+
+config SYS_BOARD
+	default "imx280a"
+
+config SYS_VENDOR
+	default "zlg"
+
+config SYS_SOC
+	default "mxs"
+
+config SYS_CONFIG_NAME
+	default "imx280a"
+
+endif
